@@ -154,9 +154,13 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="App_Data\ClothersMorden.mdf" />
     <Content Include="App_Data\ClothersMordenT.mdf" />
     <Content Include="App_Data\ClothersMordenT_log.ldf">
       <DependentUpon>ClothersMordenT.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\ClothersMorden_log.ldf">
+      <DependentUpon>ClothersMorden.mdf</DependentUpon>
     </Content>
     <Content Include="Content\admin\bower_components\bootstrap-social\bootstrap-social.css" />
     <Content Include="Content\admin\bower_components\bootstrap\dist\css\bootstrap-theme.css" />
